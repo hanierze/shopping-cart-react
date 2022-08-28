@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+    margin: 10% 10%;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px rgb(236, 232, 232);
+    background: #fff;
+}
+
+.image {
+    width: 300px;
+}

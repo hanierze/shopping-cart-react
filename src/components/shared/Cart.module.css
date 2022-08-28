@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid rgb(182, 179, 179);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.titleContainer {
+    color: #167d32;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mainContainer {
+    margin-left: 10px;
+}
+
+.imgProduct {
+    width: 100px;
+}
+
+.buttonsContainer {
+    display: flex;
+}
+
+.quantity {
+    background: rgb(247, 192, 14);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.smallButton {
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 0.9rem;
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 481px) {
+    .container {
+        flex-direction: column;
+        min-height: 300px;
+        justify-content: space-around;
+    }
+}

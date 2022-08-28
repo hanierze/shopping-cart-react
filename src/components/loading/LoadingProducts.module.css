@@ -1,0 +1,17 @@
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -1;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 10px;
+}
